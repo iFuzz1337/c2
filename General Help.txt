@@ -1,0 +1,89 @@
+┌────────────────────────────────────────────────────────────────────┐
+                      Common Issues That People Run into While Making a DDOS Api
+                                                                  @2k._tyler
+└────────────────────────────────────────────────────────────────────┘
+┌──────────────────┐
+       Method/Api Help:
+       Segmentation Fault.
+       Permission Denied.
+       Method usage.
+       Method Power.
+       Hosting/Power.
+└──────────────────┘
+
+┌──────────────────┐
+      Segmentation Fault 
+└──────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────┐
+     [Segmentation Fault]: is when the method has be edited in a bad way, meaning someone messed up the code.
+     this fix for this is either changing the file name back to what it was, or changing the code back to what it was.
+└────────────────────────────────────────────────────────────────────────────────┘
+
+
+
+
+
+┌──────────────────┐
+       Permission Denied
+└──────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+    [Permission Denied]: the fix for this is    [chmod 777 *]   , you have to run this cmd for each method added or run it after you have added all the methods.
+└────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+
+
+┌──────────────────┐
+           Method Usage
+└──────────────────┘
+┌─────────────────────────────────────────────────┐
+  [Method Usage]:
+     most methods have a usage when you run the cmd for them.
+     Compiled method usages are: ./METHOD
+     Perl method usages are: perl METHOD.pl
+     Python method usages are: python METHOD.py
+└─────────────────────────────────────────────────┘
+
+
+
+
+
+┌──────────────────┐
+          method power
+└──────────────────┘
+┌─────────────────────────────────────────────────┐
+   Threads   |   PPS   |   Packets   |   Proxies Lists/Amp List
+└─────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────┐
+   [Proxies Lists] are mainly for layer7 method power.
+└─────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────┐
+   [Amp Lists] and mainly used for amplification methods like DNS, LDAP, and NTP but can be used on others.
+└────────────────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+   [Threads] 10 threads is good.
+   they dont need to be that high on MOST if not ALL methods. The ones that should usually have high threads on them are Bypasses and Game methods.
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────┐
+   [PPS] can stay at -1 unless you know what your doing.
+└─────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────┐
+   [Packets] can be set to 900 or 1024 for best performance.
+└─────────────────────────────────────────────────┘
+ (Note: not all methods use pps, threads, or lists etc.)
+
+
+
+
+
+┌─────────────┐
+     Hosting/Power
+└─────────────┘
+┌─────────────────────────────────────────────────┐
+      [Hosting], can be basically anywhere (100up Best for ddos protection)
+└─────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────┐
+      [Power], serverhub the $5 servers output alot and are very good.
+└─────────────────────────────────────────────────┘
+
+

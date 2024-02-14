@@ -1,0 +1,78 @@
+THIS IS A TUTORIAL ON HOW TO MAKE A DDOS API By | @2k._tyler <= Instagram
+=======================
+RUN THESE CMDS
+=======================
+yum update
+
+yum update -y
+
+yum install epel-release -y
+
+yum groupinstall "Development Tools" -y
+
+yum install gmp-devel -y
+
+ln -s /usr/lib64/libgmp.so.3  /usr/lib64/libgmp.so.10
+
+yum install screen wget bzip2 gcc nano gcc-c++ electric-fence sudo git libc6-dev httpd xinetd tfpd tftp-server mysql mysql-server gcc glibc-static -y
+yum install php -y
+
+yum install gcc php-devel php-pear libssh2 libssh2-devel
+
+pecl install -f ssh2
+touch /etc/php.d/ssh2.ini
+echo extensions-ssh2.so > /etc/php.d/ssh2.ini
+/etc/init.d/httpd restart
+php -m | grep ssh2
+
+yum -y install httpd
+service httpd start
+service httpd status
+/sbin/iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+
+/etc/rc.d/init.d/iptables save
+yum install gcc -y
+
+yum install cpan
+
+cpan
+
+install Net::RawIP
+
+service httpd restart
+
+setenforce 0
+
+chmod 777 *
+yum install nload
+nload
+=======================
+STOP
+=======================
+=======================
+INSTALL SSH2
+=======================
+
+yum install  make gcc  libssh2  php-devel php-pearlibssh2-devel
+yum install php-pear
+
+pecl install -f ssh2
+echo "extension=ssh2.so"  > /etc/php.ini
+
+systemctl restart httpd.service
+systemctl start httpd.service
+
+chmod 777 *
+iptables -F
+=======================
+STOP
+=======================
+
+Now Run:
+perl setup.pl
+=======================
+Put The Api.php File in:
+var/www/html
+in the vps (moba)
+
+

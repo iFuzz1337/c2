@@ -1,0 +1,12 @@
+API SETUP-V1
+@2k._tyler    |   Instagram
+This is a setup tutorial on how to setup a ddos api.
+it is not hard, all of the steps are in the file folder.
+###########################
+Files That Are Included:
+
+1. api.php >>> Api.php Script (the api part of the php file can be changed to what ever, aslong as you have .php at the end)
+2. General Help.txt >>> Api Help Text File
+3. READ-ME.txt >>> This File
+4. setup.pl >>> a perl setup script (read the TUT.txt first).
+5. TUT.txt >>> Tutorial Text File.
